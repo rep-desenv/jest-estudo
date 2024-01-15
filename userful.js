@@ -1,10 +1,10 @@
 function executarAntes() {
-    console.log('Executando ANTES.')
+    //console.log('Executando ANTES.')
     return this
 }
 
 function executarDepois(){
-    console.log('Executando Depois.')
+    //console.log('Executando Depois.')
     return this
 }
 

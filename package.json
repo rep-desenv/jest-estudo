@@ -10,5 +10,14 @@
   "license": "ISC",
   "dependencies": {
     "jest": "^29.7.0"
+  },
+ 
+  "jest": {
+    "verbose": true,
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/__casa__/**/*.[jt]s?(x)",
+      "**/?(*.)+(spec|test).[jt]s?(x)"
+    ]
   }
 }
